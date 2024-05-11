@@ -1,5 +1,11 @@
+body{
+  overflow-x: hidden;
+  position: relative;
+}
 .App {
   text-align: center;
+}
+#app_mainContainer{
   width: 45%;
   background-color: whitesmoke;
   margin: 100px auto;
@@ -39,9 +45,17 @@
 #app_addTask_button:hover{
   background-color: rgba(81, 2, 150, 0.716);
 }
-#container{
+#app_tasksContainer{
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
+}
+#app_dropDownContainer{
+  display: none;
+  position: absolute;
+  top: -100px;
+  left: 0;
+  min-width: 100vw;
+  min-height: 100vh;
 }

@@ -1,0 +1,45 @@
+/* .dropDown_container{
+    width: 100vw;
+    min-height: 100vh; */
+    /* position: absolute; */
+    /* top: -39%; */
+    /* left: -27.2%; */
+    /* top: 0; */
+    /* left: 0; */
+    /* position: absolute;
+    top: -65vw;
+    background-color: rgba(128, 128, 128, 0.371);
+} */
+
+
+
+/* do not touch this: */
+.dropDown_mainDiv{
+    margin-top: 300px;
+    margin-left: 40vw;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.dropDown_mainDiv_buttons{
+    height: 25%;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#urgentBtn:hover{
+    background-color: rgba(255, 0, 0, 0.659);
+}
+#highBtn:hover{
+    background-color: rgba(249, 174, 35, 0.719);
+}
+#normalBtn:hover{
+    background-color: rgba(255, 255, 55, 0.686) ;
+}
+#lowBtn:hover{
+    background-color: rgba(1, 245, 1, 0.659) ;
+}
